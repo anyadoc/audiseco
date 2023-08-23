@@ -1,0 +1,10 @@
+Species,pathogen,seroprevalence
+Dog,CDV,0.65
+Dog,CPV,0.82
+Dog,CAV,0.55
+Leopard,CDV,0.23
+Leopard,CPV,0.54
+Leopard,CAV,0.11
+Tiger,CDV,0.43
+Tiger,CPV,0.33
+Tiger,CAV,0.22
