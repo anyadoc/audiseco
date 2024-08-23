@@ -1,0 +1,41 @@
+---
+title: "AB_DisEco_Fall2024"
+author: "Ani Belsare"
+format: html
+editor: visual
+---
+
+#### 08/22/2024
+
+Quarto is a powerful tool for creating dynamic documents that combine text, code, and data visualizations. For your assignments and worksheets, using Quarto will allow you to seamlessly integrate your analysis with your written explanations/comments, making your reports more cohesive and professional.
+
+------------------------------------------------------------------------
+
+#### Integrating code and text
+
+Find area of a circle with radius 5 cm.
+
+Formula: ¶ \* r\^2
+
+where r is the radius.
+
+```{r}
+# Function to calculate the area of a circle
+
+area_of_circle <- function(radius) {
+  area <- pi * radius^2
+  return(area)
+}
+
+radius <- 5 # from the example
+circle_area <- area_of_circle(radius)
+cat("The area of the circle with radius", radius, "is", circle_area, "\n")
+```
+
+------------------------------------------------------------------------
+
+#### Inserting an image in Quarto document![]()
+
+![](EpiTriad.png)
+
+------------------------------------------------------------------------
